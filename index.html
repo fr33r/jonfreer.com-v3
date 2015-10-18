@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Jon Freer</title>
+
+		<!-- External CSS -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/slideshow.css">
+		<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+		<!-- jQuery. -->
+		<script type = "text/javascript" src = "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<!-- External JS -->
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</head>
+
+	<body>
+
+		<!-- Side Menu -->
+		<div id ="sideMenu">
+
+			<!-- Close Menu Button -->
+			<span id="closeMenu">
+				<div class ="cross"></div>
+				<div class ="cross"></div>
+			</span>
+
+			<ul id ="sideMenuList">
+				<li>intro</li>
+				<li>programming</li>
+				<li>projects</li>
+				<li>more..</li>
+			</ul>
+		</div>
+
+		<div class = "content">
+
+			<!-- Hamburger Menu Button -->
+			<span id="menu">
+				<div class ="stack"></div>
+				<div class ="stack"></div>
+				<div class ="stack"></div>
+			</span>
+
+			<div class = "video-container">
+				<!--<h2 id="opening-text" class = "floating-element">jon freer</h2>-->
+				<!--<img id = "logo-image" src="img/j_f_logo_white_compressed.png"/>-->
+				<video id ="opening-video" autoplay muted loop preload="auto">
+					<!-- Still need poster. -->
+					<source src="vid/Lake_Calhoun_Optimized.mp4" type="video/mp4">
+				</video>
+				<h1 class="title floating-banner">jon freer</h1>
+			</div>
+
+			<!-- Quick About Me -->
+			<div id="about-me-section" class ="section">
+				<h2 id="about-me-title" class ="titles floating-element">about me</h2>
+				<div class = "half-section">
+					<p class = "text">i am a 23 year old, thinker, creater, builder, and dreamer.</p>
+					<p class = "text">my greatest passions are programming, solving complex problems, and designing.</p>
+					<p class = "text">on the side, i like getting out on the ice and playing hockey.</p>
+				</div>
+				<div class = "half-section">
+					<img id = "about-me-image" src="img/about_me.jpg" class="floating-element"/>
+				</div>
+			</div>
+
+			
+			<div id = "programming-section" class ="section">
+				<img id = "programming-image" src="img/DSC_0263.jpg"/>
+			</div>
+
+			<!-- Woodworking Projects -->
+			<div id="projects-section" class ="section">
+				<h2 id="projects-title" class ="titles floating-element">projects</h2>
+				<div class = "slideshow-container">
+					<div class = "photo-container">
+						<img class = "slideshow-image floating-element" src = "img/test_photo_1.jpg" />
+						<img class = "slideshow-image floating-element" src = "img/test_photo_2.jpg" />
+						<img class = "slideshow-image floating-element" src = "img/test_photo_3.jpg" />
+					</div>
+					<div id="tracker-container" class = "slideshow-tracker-container"></div>
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<div class = "footer">
+				
+				<div class = "display-table">
+					<div class = "display-row">
+						<div class = "display-cell three-column-width">
+							<!-- Social Media Links -->
+						</div>
+						<div class = "display-cell three-column-width">
+							<!-- Logo -->
+							<img id = "footer-logo-image" src="img/j_f_logo_white_compressed.png"/>
+						</div>
+						<div class = "display-cell three-column-width">
+							<!-- Contact Me Links -->
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+		</div>
+
+		<!-- Scripts -->
+		<script type="text/javascript" src="js/slideshow.js"></script>
+		<script type="text/javascript" src="js/resizeVideo.js"></script>
+	</body>
+</html>
